@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="input">
+        <div class="input-top">
+            <input required type="text" id="name" placeholder="Name">
+            <input required type="email" id="email" placeholder="Email">
+        </div>
+        <textarea required placeholder="Your Comment" id="comment" cols="30" rows="10"></textarea>
+        <button id="button" type="submit" onclick="myFunction();">Post a Comment</button>
+</form>
+<ul id="comment-list">
+<!-- data are comes from local storage -->
+</ul>
+</div>
+<script src="index.js"></script>
+</body>
+</html>
